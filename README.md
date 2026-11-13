@@ -69,7 +69,7 @@ Le même texte est affiché dans le terminal et enregistré dans `bilan-stock.tx
 Sur un PC avec Docker et Git, dans PowerShell :
 
 ```powershell
-git clone URL_DU_DEPOT
+git clone https://github.com/Alizee001/TP01_virtualisation_stock
 cd TP01_virtualisation_stock
 New-Item -ItemType Directory -Force -Path .\resultats
 docker build -t analyse-stock:v1 .
